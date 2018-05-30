@@ -5,11 +5,6 @@ import "../assets/CSS/bootstrap.min.css"
 import "../assets/CSS/animate.css" 
 import "../assets/CSS/style.css" 
 
-// <script src="js/jquery-3.1.1.min.js"></script>
-//     <script src="js/bootstrap.min.js"></script>
-
-
-
 class Login extends Component {
   render() {
     return (
