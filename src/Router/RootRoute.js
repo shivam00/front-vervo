@@ -2,11 +2,15 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import React from 'react';
 
 import App from '../components/App';
+import Login from '../components/Login';
 
 const RootRoute = () => {
     return (
       <Router>
-        <Route path="/" component={App} />
+        <div>
+        <Route exact path="/" component={App} />
+        <Route path="/login" component={Login} />
+        </div>
       </Router>
     );
   };
